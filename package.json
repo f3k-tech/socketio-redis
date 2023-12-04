@@ -1,0 +1,26 @@
+{
+  "name": "socketio-redis",
+  "version": "0.0.1",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f3k-tech/socketio-redis.git"
+  },
+  "author": "FreekO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f3k-tech/socketio-redis/issues"
+  },
+  "homepage": "https://github.com/f3k-tech/socketio-redis#readme",
+  "description": "",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.2.1",
+    "redis": "^4.6.11",
+    "socket.io": "^4.7.2"
+  }
+}
