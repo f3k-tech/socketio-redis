@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "${APP_PORT:-3000}:3000"
+    depends_on:
+      - redis
+  redis:
+    image: "redis"
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
